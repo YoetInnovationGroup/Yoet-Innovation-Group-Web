@@ -1,0 +1,29 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Yoet Innovation Spaces — brand mark</title>
+<desc>An original Y-shaped node isotype above the wordmark "yoet innovation spaces" on a dark atmospheric gradient background, using the brand's steel-blue and carbon color palette.</desc>
+<defs>
+<radialGradient id="skyGrad" cx="32%" cy="8%" r="85%">
+<stop offset="0%" stop-color="#E6EBEF"/>
+<stop offset="22%" stop-color="#9EADC2"/>
+<stop offset="45%" stop-color="#3D4B5C"/>
+<stop offset="68%" stop-color="#292E35"/>
+<stop offset="100%" stop-color="#060607"/>
+</radialGradient>
+</defs>
+
+<rect x="0" y="0" width="1400" height="900" fill="#060607"/>
+<rect x="0" y="0" width="1400" height="900" fill="url(#skyGrad)"/>
+<ellipse cx="700" cy="1150" rx="1050" ry="650" fill="#060607"/>
+
+<text x="60" y="56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" letter-spacing="3" fill="#9EADC2" opacity="0.75">YOET GROUP</text>
+
+<g transform="translate(576,436) scale(0.62)">
+<line x1="200" y1="200" x2="98" y2="70" stroke="#E9ECEF" stroke-width="44" stroke-linecap="round"/>
+<line x1="200" y1="200" x2="302" y2="70" stroke="#E9ECEF" stroke-width="44" stroke-linecap="round"/>
+<line x1="200" y1="200" x2="200" y2="365" stroke="#E9ECEF" stroke-width="44" stroke-linecap="round"/>
+<circle cx="200" cy="368" r="16" fill="#2E7FE0"/>
+</g>
+
+<text x="700" y="770" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="50" letter-spacing="7" fill="#E9ECEF">yoet innovation spaces</text>
+<text x="700" y="810" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="18" letter-spacing="4" fill="#9EADC2">agentic technology &#183; web engineering</text>
+</svg>
