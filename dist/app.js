@@ -1,0 +1,4 @@
+const list=document.querySelector('#project-list');
+list.innerHTML=projects.map((p,i)=>`<article class="project" id="proyecto-${i+1}"><div class="project-main"><div class="project-info"><p class="project-count">${String(i+1).padStart(2,'0')} <span>| ${String(projects.length).padStart(2,'0')}</span> &nbsp; Diseño web</p><h3>${p.name}</h3><div class="project-description"><h4>Descripción</h4><p>${p.desc}</p></div></div><figure class="project-photo"><img src="${p.image}" alt="Diseño web de ${p.name}, página completa" width="${p.width}" height="${p.height}" loading="lazy" decoding="async"></figure></div></article>`).join('');
+document.querySelector('#business-logos').innerHTML=projects.map((p,i)=>`<div class="local-identity"><span class="identity-symbol identity-${i}">${p.symbol}</span><span><b>${p.logo}</b><small>${p.sub}</small></span></div>`).join('');
+
